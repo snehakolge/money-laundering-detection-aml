@@ -89,6 +89,15 @@ G --> H[Identification of Suspicious Transactions]
 
 ---
 
+## Project Structure
+
+Money-Laundering-Detection-AML
+│
+├── AML_Money_Laundering_Detection.ipynb
+├── README.md
+└── requirements.txt
+
+
 ## Feature Engineering Strategy
 
 The project constructs behavioral indicators commonly used in AML monitoring pipelines:
