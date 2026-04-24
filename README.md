@@ -46,6 +46,25 @@ Approximately **5% suspicious transaction behavior** was intentionally simulated
 
 ---
 
+## Project Architecture
+
+```mermaid
+flowchart LR
+
+A[Synthetic Dataset Generation] --> B[Data Preprocessing]
+
+B --> C[Feature Engineering]
+
+C --> D[Exploratory Data Analysis]
+
+D --> E[Visualization using Matplotlib]
+
+E --> F[Risk Indicator Construction]
+
+F --> G[Machine Learning Classification Model]
+
+G --> H[Suspicious Transaction Detection Output]
+
 ## AML Detection Workflow
 
 ```mermaid
